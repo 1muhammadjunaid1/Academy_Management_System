@@ -152,29 +152,13 @@ void MainWindow::handle_menu_item_click() {
     }
 }
 
-// void MainWindow::connectToDatabase() {
-//     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-//     db.setHostName("gateway01.eu-central-1.prod.aws.tidbcloud.com");
-//     db.setPort(4000);
-//     db.setDatabaseName("test");
-//     db.setUserName("3EJLwsrDq3vj7qm.root");
-//     db.setPassword("WjazBzS2bB7ip5qO");
-
-//     if (!db.open()) {
-//         qDebug() << "Database connection failed:" << db.lastError().text();
-//     } else {
-//         qDebug() << "Connected to TiDB Cloud successfully!";
-//     }
-// }
-
-
 void MainWindow::connectToDatabase() {
     QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
     db.setHostName("127.0.0.1");
     db.setPort(3306);
     db.setDatabaseName("Academy");
     db.setUserName("root");
-    db.setPassword("Awais0696");
+    db.setPassword("");
 
     if (!db.open()) {
         qDebug() << "Database connection failed:" << db.lastError().text();
