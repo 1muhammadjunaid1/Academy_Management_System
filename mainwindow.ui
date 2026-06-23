@@ -1,0 +1,3231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1557</width>
+    <height>833</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-4</y>
+      <width>1521</width>
+      <height>767</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QWidget" name="icon_text_widget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>95</width>
+         <height>763</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>95</width>
+         <height>763</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget{
+	background-color: rgb(0, 0, 0);
+}
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_12">
+        <property name="topMargin">
+         <number>30</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="Icons.qrc">:/new/prefix1/Resocrces/logo.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_9">
+          <property name="spacing">
+           <number>20</number>
+          </property>
+          <property name="topMargin">
+           <number>35</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="dashboard2">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="Icons.qrc">
+              <normaloff>:/new/prefix1/Resocrces/dashboardsmall1.png</normaloff>
+              <normalon>:/new/prefix1/Resocrces/dashboardsmall2.png</normalon>:/new/prefix1/Resocrces/dashboardsmall1.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>100</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="institution2">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="Icons.qrc">
+              <normaloff>:/new/prefix1/RE/financessmall1.png</normaloff>
+              <normalon>:/new/prefix1/RE/financessmall2.png</normalon>:/new/prefix1/RE/financessmall1.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>100</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="teacher2">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="Icons.qrc">
+              <normaloff>:/new/prefix1/RE/studentssmall1.png</normaloff>
+              <normalon>:/new/prefix1/RE/studentssmall2.png</normalon>:/new/prefix1/RE/studentssmall1.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>100</width>
+              <height>20</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>582</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_10">
+          <property name="spacing">
+           <number>20</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="signout2">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="Icons.qrc">
+              <normaloff>:/new/prefix1/RE/signoutsmall1.png</normaloff>
+              <normalon>:/new/prefix1/RE/signoutsmall2.png</normalon>:/new/prefix1/RE/signoutsmall1.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>100</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>230</width>
+         <height>763</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>230</width>
+         <height>763</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QWidget{
+	background-color: rgb(0, 0, 0);
+	color:white;
+}
+
+QPushButton{
+	height:30px;
+	border:none;
+}</string>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_11">
+        <property name="topMargin">
+         <number>30</number>
+        </property>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <property name="spacing">
+           <number>18</number>
+          </property>
+          <property name="leftMargin">
+           <number>20</number>
+          </property>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="maximumSize">
+             <size>
+              <width>40</width>
+              <height>40</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap resource="Icons.qrc">:/new/prefix1/Resocrces/logo.png</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <family>Berlin Sans FB</family>
+              <pointsize>16</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Paradigm</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="spacing">
+           <number>14</number>
+          </property>
+          <property name="topMargin">
+           <number>33</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="dashboard1">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-55px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="Icons.qrc">
+              <normaloff>:/new/prefix1/Resocrces/dashboard2.png</normaloff>
+              <normalon>:/new/prefix1/Resocrces/dashboard1.png</normalon>:/new/prefix1/Resocrces/dashboard2.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>200</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="institution1">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-50px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+	color : #34D481;
+}</string>
+            </property>
+            <property name="text">
+             <string>   Manage Fees</string>
+            </property>
+            <property name="icon">
+             <iconset resource="Icons.qrc">
+              <normaloff>:/new/prefix1/RE/financessmall1.png</normaloff>
+              <normalon>:/new/prefix1/RE/financessmall2.png</normalon>:/new/prefix1/RE/financessmall1.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>80</width>
+              <height>25</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+            <property name="autoExclusive">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="teachers">
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_5">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="teacher1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="icon">
+                <iconset resource="Icons.qrc">
+                 <normaloff>:/new/prefix1/RE/students3.png</normaloff>
+                 <normalon>:/new/prefix1/RE/students4.png</normalon>:/new/prefix1/RE/students3.png</iconset>
+               </property>
+               <property name="iconSize">
+                <size>
+                 <width>200</width>
+                 <height>20</height>
+                </size>
+               </property>
+               <property name="checkable">
+                <bool>true</bool>
+               </property>
+               <property name="autoExclusive">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="teachers_dropdown">
+               <property name="frameShape">
+                <enum>QFrame::Shape::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Shadow::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                 <widget class="QPushButton" name="t_info">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-10px;
+	font-family : &quot;Poppins&quot;;
+}
+
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Upload Marks</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                  <property name="autoExclusive">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="t_salaries">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:-16px;
+	font-family : &quot;Poppins&quot;;
+}
+
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Assign Tasks</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                  <property name="autoExclusive">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="t_transactions">
+                  <property name="styleSheet">
+                   <string notr="true">QPushButton{
+	padding-left:28px;
+	font-family : &quot;Poppins&quot;;
+}
+
+QPushButton:hover{
+	color:#12B298;
+}</string>
+                  </property>
+                  <property name="text">
+                   <string>Student Attendance</string>
+                  </property>
+                  <property name="checkable">
+                   <bool>true</bool>
+                  </property>
+                  <property name="autoExclusive">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>139</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <property name="spacing">
+           <number>16</number>
+          </property>
+          <item>
+           <widget class="QPushButton" name="signout1">
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	padding-left:-70px;
+}
+
+QPushButton:checked{
+	background-color:white;
+	border-radius:3px;
+}</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="Icons.qrc">
+              <normaloff>:/new/prefix1/RE/signout2.png</normaloff>
+              <normalon>:/new/prefix1/RE/signout1.png</normalon>:/new/prefix1/RE/signout2.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>200</width>
+              <height>16</height>
+             </size>
+            </property>
+            <property name="checkable">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <layout class="QVBoxLayout" name="verticalLayout_18">
+       <item>
+        <widget class="QWidget" name="widget_3" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>95</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>95</height>
+          </size>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <property name="spacing">
+             <number>7</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="pushButton_30">
+              <property name="styleSheet">
+               <string notr="true">border:none;</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="icon">
+               <iconset resource="Icons.qrc">
+                <normaloff>:/new/prefix1/RE/menu.png</normaloff>:/new/prefix1/RE/menu.png</iconset>
+              </property>
+              <property name="iconSize">
+               <size>
+                <width>29</width>
+                <height>35</height>
+               </size>
+              </property>
+              <property name="checkable">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <layout class="QVBoxLayout" name="verticalLayout_13">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="label_8">
+                <property name="font">
+                 <font>
+                  <family>Berlin Sans FB</family>
+                  <pointsize>15</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>Hello</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_9">
+                <property name="font">
+                 <font>
+                  <family>Berlin Sans FB</family>
+                  <pointsize>12</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(68, 68, 68);</string>
+                </property>
+                <property name="text">
+                 <string>Welcome to your page</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeType">
+             <enum>QSizePolicy::Policy::Expanding</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>400</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="verticalLayout_16">
+            <item>
+             <widget class="QLineEdit" name="searchBar">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>38</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>400</width>
+                <height>38</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QLineEdit {
+    padding: 8px 12px;
+    border: 2px solid #444;
+    border-radius: 6px;
+    background-color: #2e2e2e;
+    color: white;
+    font-size: 14px;
+    selection-background-color: #0078d7;
+}
+
+QLineEdit:hover {
+    border-color: #666;
+}
+
+QLineEdit:focus {
+    border-color: #00aaff;
+    background-color: #1e1e1e;
+}
+</string>
+              </property>
+              <property name="placeholderText">
+               <string>Search Students</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QListWidget" name="searchResultsList">
+              <property name="minimumSize">
+               <size>
+                <width>0</width>
+                <height>0</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>400</width>
+                <height>16777215</height>
+               </size>
+              </property>
+              <property name="styleSheet">
+               <string notr="true"> QListWidget {
+        background-color: #1e1e1e;
+        color: #ffffff;
+        border: 1px solid #12B298;
+        border-radius: 6px;
+        padding: 4px;
+    }
+
+    QListWidget::item {
+        padding: 8px;
+        border-bottom: 1px solid #2a2a2a;
+    }
+
+    QListWidget::item:hover {
+        background-color: #2e2e2e;
+        color: #12B298;
+    }
+
+    QListWidget::item:selected {
+        background-color: #12B298;
+        color: #1e1e1e;
+    }</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_4" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>920</width>
+           <height>661</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>1176</width>
+           <height>661</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+         <widget class="QStackedWidget" name="stackedWidget">
+          <property name="geometry">
+           <rect>
+            <x>-4</x>
+            <y>0</y>
+            <width>1229</width>
+            <height>661</height>
+           </rect>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>1000000</width>
+            <height>100000</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Poppins</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QDialog{
+	background-color : white;
+}
+
+QLineEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 35px;
+}
+
+QDateEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 31px;
+}
+
+QComboBox{
+	border : 2px solid white;
+	border-radius : 8px;
+	padding : 1px 18px 1px 3px;
+	background-color : black;
+	color : white;
+	height : 35px;
+	padding-left : 15px;
+	font-weight : bold;
+	selection-background-color : #2980B9;
+}
+
+</string>
+          </property>
+          <property name="currentIndex">
+           <number>2</number>
+          </property>
+          <widget class="QWidget" name="page">
+           <widget class="QLabel" name="label_11">
+            <property name="geometry">
+             <rect>
+              <x>300</x>
+              <y>222</y>
+              <width>223</width>
+              <height>143</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Berlin Sans FB</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+background-color:none;</string>
+            </property>
+            <property name="text">
+             <string>DASHBOARD</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_2">
+           <widget class="QWidget" name="widget" native="true">
+            <property name="geometry">
+             <rect>
+              <x>174</x>
+              <y>6</y>
+              <width>917</width>
+              <height>97</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(39, 39, 39);
+border : 1px solid black;
+border-radius : 18px;</string>
+            </property>
+            <widget class="QWidget" name="layoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>52</x>
+               <y>8</y>
+               <width>187</width>
+               <height>88</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLabel" name="label_12">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>Total Paid :</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_14">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>Outstanding :</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_30">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>Last Paid :</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>254</x>
+               <y>8</y>
+               <width>203</width>
+               <height>86</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <widget class="QLabel" name="label_totalPaid">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>fee</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_outstanding">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>remaining</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_lastPaid">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>date</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+           <widget class="QTableWidget" name="fee_table">
+            <property name="geometry">
+             <rect>
+              <x>174</x>
+              <y>108</y>
+              <width>913</width>
+              <height>247</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QTableWidget {
+    background-color: #000000;
+    gridline-color: #34D481;
+    font-size: 14px;
+    font-family: &quot;Poppins&quot;;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #34D481;
+    color: #000000;
+    padding: 4px;
+    border: 1px solid #34D481;
+    font-family: &quot;Poppins&quot;;
+    font-size: 14px;
+}
+
+QTableWidget::item:selected {
+    background-color:#1e1e1e;
+    color: white;
+    font-family: &quot;Poppins&quot;;
+}
+
+/* Checkbox styling */
+QCheckBox {
+    spacing: 10px;
+    font-family: &quot;Poppins&quot;;
+    color: white;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #34D481;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #34D481;
+    border: 2px solid #34D481;
+	image: url(:/new/prefix1/RE/checkmark.svg);
+}
+
+QTableWidget QCheckBox {
+    margin-left: 10px;
+}
+</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="btn_saveFee">
+            <property name="geometry">
+             <rect>
+              <x>176</x>
+              <y>608</y>
+              <width>905</width>
+              <height>37</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Poppins</family>
+              <pointsize>10</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color : #34D481;
+	color : white;
+	border : none;
+	border-radius : 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Save</string>
+            </property>
+           </widget>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>176</x>
+              <y>360</y>
+              <width>911</width>
+              <height>78</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_31">
+               <property name="font">
+                <font>
+                 <family>Poppins</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Select Month</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QComboBox" name="combo_month">
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 35px;
+}
+
+QDateEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 31px;
+}
+
+QComboBox{
+	border : 2px solid white;
+	border-radius : 8px;
+	padding : 1px 18px 1px 3px;
+	background-color : black;
+	color : white;
+	height : 35px;
+	padding-left : 15px;
+	font-weight : bold;
+	selection-background-color : #2980B9;
+}</string>
+               </property>
+               <item>
+                <property name="text">
+                 <string>January</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>February</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>March</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>April</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>May</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>June</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>July</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>August</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>September</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>October</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>November</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>December</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>176</x>
+              <y>440</y>
+              <width>909</width>
+              <height>73</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <widget class="QLabel" name="label_32">
+               <property name="font">
+                <font>
+                 <family>Poppins</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Select Due Date</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QDateEdit" name="date_due">
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 35px;
+}
+
+QDateEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 31px;
+}
+
+QComboBox{
+	border : 2px solid white;
+	border-radius : 8px;
+	padding : 1px 18px 1px 3px;
+	background-color : black;
+	color : white;
+	height : 35px;
+	padding-left : 15px;
+	font-weight : bold;
+	selection-background-color : #2980B9;
+}</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>176</x>
+              <y>518</y>
+              <width>907</width>
+              <height>74</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_32">
+             <item>
+              <widget class="QLabel" name="label_33">
+               <property name="font">
+                <font>
+                 <family>Poppins</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Enter Amount</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="line_amount">
+               <property name="styleSheet">
+                <string notr="true">QLineEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 35px;
+}
+
+QDateEdit{
+	border : 1px solid gray;
+	border-radius : 6px;
+	padding-left : 15px;
+	height : 31px;
+}
+
+QComboBox{
+	border : 2px solid white;
+	border-radius : 8px;
+	padding : 1px 18px 1px 3px;
+	background-color : black;
+	color : white;
+	height : 35px;
+	padding-left : 15px;
+	font-weight : bold;
+	selection-background-color : #2980B9;
+}</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_3">
+           <widget class="QFrame" name="frame">
+            <property name="geometry">
+             <rect>
+              <x>32</x>
+              <y>28</y>
+              <width>551</width>
+              <height>231</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(39, 39, 39);
+border : 1px solid black;
+border-radius : 18px;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <widget class="QLabel" name="studentPhotoLabel">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>18</y>
+               <width>159</width>
+               <height>197</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : 1px solid gray;
+border-radius : 20px;</string>
+             </property>
+             <property name="text">
+              <string>Photo</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QWidget" name="layoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>328</x>
+               <y>54</y>
+               <width>211</width>
+               <height>113</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_15">
+              <item>
+               <widget class="QLabel" name="studentDOBLabel_4">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color: rgb(168, 168, 168);</string>
+                </property>
+                <property name="text">
+                 <string>Email</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="studentEmailLabel">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>Email</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="studentDOBLabel_5">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color: rgb(168, 168, 168);</string>
+                </property>
+                <property name="text">
+                 <string>Phone</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="studentPhoneLabel">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>Phone</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>178</x>
+               <y>172</y>
+               <width>279</width>
+               <height>39</height>
+              </rect>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QPushButton" name="editStudentButton">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>37</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>37</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color : #34D481;
+	color : white;
+	border : none;
+	border-radius : 8px;
+	font-weight : bold;
+	font-size : 15px;
+}
+QPushButton:hover{
+	background-color:#2FBF74;
+}
+QPushButton:pressed {
+    background-color: #29A965;
+}</string>
+                </property>
+                <property name="text">
+                 <string>Update Student</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="deleteStudentButton">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>37</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>37</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QPushButton{
+	background-color: rgb(202, 0, 0);
+	color : white;
+	border : none;
+	border-radius : 8px;
+	font-weight : bold;
+	font-size : 15px;
+}
+QPushButton:hover {
+    background-color: rgb(170, 0, 0);
+}
+
+QPushButton:pressed {
+    background-color: rgb(130, 0, 0);
+}</string>
+                </property>
+                <property name="text">
+                 <string>Delete Student</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="layoutWidget">
+             <property name="geometry">
+              <rect>
+               <x>174</x>
+               <y>54</y>
+               <width>147</width>
+               <height>113</height>
+              </rect>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_14">
+              <property name="spacing">
+               <number>7</number>
+              </property>
+              <item>
+               <widget class="QLabel" name="studentDOBLabel_2">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color: rgb(168, 168, 168);</string>
+                </property>
+                <property name="text">
+                 <string>Date Of Birth</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="studentDOBLabel">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>DOB</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="studentDOBLabel_3">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color: rgb(168, 168, 168);</string>
+                </property>
+                <property name="text">
+                 <string>Class</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="studentClassLabel">
+                <property name="font">
+                 <font>
+                  <family>Poppins</family>
+                  <pointsize>10</pointsize>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">border : none;
+color : white;</string>
+                </property>
+                <property name="text">
+                 <string>Class</string>
+                </property>
+                <property name="scaledContents">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QLabel" name="studentNameLabel">
+             <property name="geometry">
+              <rect>
+               <x>176</x>
+               <y>18</y>
+               <width>357</width>
+               <height>32</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>14</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>Name</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QPushButton" name="Add_Student">
+            <property name="geometry">
+             <rect>
+              <x>32</x>
+              <y>580</y>
+              <width>1141</width>
+              <height>57</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Poppins</family>
+              <pointsize>-1</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color : #34D481;
+	color : white;
+	border : none;
+	border-radius : 16px;
+	font-weight : bold;
+	font-family : &quot;Poppins&quot;;
+	font-size : 22px;
+}
+QPushButton:hover{
+	background-color:#2FBF74;
+}
+QPushButton:pressed {
+    background-color: #29A965;
+}</string>
+            </property>
+            <property name="text">
+             <string>Add Student</string>
+            </property>
+           </widget>
+           <widget class="QFrame" name="frame_2">
+            <property name="geometry">
+             <rect>
+              <x>620</x>
+              <y>28</y>
+              <width>551</width>
+              <height>231</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(39, 39, 39);
+border : 1px solid black;
+border-radius : 18px;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <widget class="QFrame" name="frame_attendance">
+             <property name="geometry">
+              <rect>
+               <x>322</x>
+               <y>34</y>
+               <width>169</width>
+               <height>167</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QFrame {
+    background-color: transparent;
+    border : none;
+}
+</string>
+             </property>
+             <property name="frameShape">
+              <enum>QFrame::Shape::StyledPanel</enum>
+             </property>
+             <property name="frameShadow">
+              <enum>QFrame::Shadow::Raised</enum>
+             </property>
+            </widget>
+            <widget class="QLabel" name="studentNameLabel_2">
+             <property name="geometry">
+              <rect>
+               <x>34</x>
+               <y>16</y>
+               <width>289</width>
+               <height>32</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>14</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>Attendance Percentage</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="studentDOBLabel_6">
+             <property name="geometry">
+              <rect>
+               <x>58</x>
+               <y>190</y>
+               <width>77</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>Presents</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_4">
+             <property name="geometry">
+              <rect>
+               <x>32</x>
+               <y>192</y>
+               <width>21</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>21</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>21</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:  #34D481;
+border-radius : 2px;
+border : none;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_6">
+             <property name="geometry">
+              <rect>
+               <x>136</x>
+               <y>192</y>
+               <width>21</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>21</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>21</width>
+               <height>20</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:  lightgray;
+border-radius : 2px;
+border : none;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="studentDOBLabel_7">
+             <property name="geometry">
+              <rect>
+               <x>162</x>
+               <y>190</y>
+               <width>75</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>Absents</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="month_present">
+             <property name="geometry">
+              <rect>
+               <x>34</x>
+               <y>62</y>
+               <width>181</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>Presents this month</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="month_absent">
+             <property name="geometry">
+              <rect>
+               <x>34</x>
+               <y>90</y>
+               <width>173</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>Absents this month</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_presentCount">
+             <property name="geometry">
+              <rect>
+               <x>210</x>
+               <y>62</y>
+               <width>29</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>28</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_absentCount">
+             <property name="geometry">
+              <rect>
+               <x>211</x>
+               <y>90</y>
+               <width>27</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>02</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="month_status">
+             <property name="geometry">
+              <rect>
+               <x>34</x>
+               <y>138</y>
+               <width>173</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : white;</string>
+             </property>
+             <property name="text">
+              <string>Attendance status</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_attendanceStatus">
+             <property name="geometry">
+              <rect>
+               <x>212</x>
+               <y>138</y>
+               <width>75</width>
+               <height>24</height>
+              </rect>
+             </property>
+             <property name="font">
+              <font>
+               <family>Poppins</family>
+               <pointsize>10</pointsize>
+               <bold>false</bold>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border : none;
+color : rgb(202, 0, 0);</string>
+             </property>
+             <property name="text">
+              <string>Low</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QWidget" name="chartContainer" native="true">
+            <property name="geometry">
+             <rect>
+              <x>25</x>
+              <y>290</y>
+              <width>581</width>
+              <height>250</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+           </widget>
+           <widget class="QWidget" name="tasksWidget" native="true">
+            <property name="geometry">
+             <rect>
+              <x>620</x>
+              <y>300</y>
+              <width>548</width>
+              <height>231</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QWidget {
+    background-color: rgb(39, 39, 39);
+    color: #f0f0f0;
+    font-family: &quot;Segoe UI&quot;, sans-serif;
+    font-size: 13px;
+	border-radius : 18px;
+}
+
+QWidget#taskContainer {
+    background-color: #2a2a3d;
+    border: 1px solid #44475a;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+QLabel {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color : #34D481;
+    color: white;
+    border-radius: 6px;
+    padding: 4px 12px;
+    font-weight: 600;
+}
+
+QPushButton:hover{
+	background-color:#2FBF74;
+}
+
+QPushButton:pressed {
+    background-color: #29A965;
+}
+
+QScrollArea {
+    background: transparent;
+    border: none;
+}</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_4"/>
+          <widget class="QWidget" name="page_5">
+           <widget class="QLabel" name="label_13">
+            <property name="geometry">
+             <rect>
+              <x>282</x>
+              <y>274</y>
+              <width>329</width>
+              <height>143</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Berlin Sans FB</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+background-color:none;</string>
+            </property>
+            <property name="text">
+             <string>Student Transaction</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_6">
+           <widget class="QLabel" name="label_16">
+            <property name="geometry">
+             <rect>
+              <x>568</x>
+              <y>24</y>
+              <width>177</width>
+              <height>37</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Poppins</family>
+              <pointsize>14</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Upload Marks</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="assignMarksButton">
+            <property name="geometry">
+             <rect>
+              <x>334</x>
+              <y>582</y>
+              <width>617</width>
+              <height>35</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Poppins</family>
+              <pointsize>10</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color : #34D481;
+	color : white;
+	border : none;
+	border-radius : 8px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Assign Marks</string>
+            </property>
+           </widget>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>334</x>
+              <y>68</y>
+              <width>617</width>
+              <height>493</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_31">
+             <property name="spacing">
+              <number>4</number>
+             </property>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_21">
+               <item>
+                <widget class="QLabel" name="label_17">
+                 <property name="font">
+                  <font>
+                   <family>Poppins</family>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Details</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="detailsLineEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="placeholderText">
+                  <string>Topic name or number...</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_8">
+               <property name="spacing">
+                <number>7</number>
+               </property>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_26">
+                 <item>
+                  <widget class="QLabel" name="label_25">
+                   <property name="font">
+                    <font>
+                     <family>Poppins</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Select Subject</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="SubQBox">
+                   <item>
+                    <property name="text">
+                     <string>Physics</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Chemistry</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Math</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>English</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Urdu</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Biology</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Computer</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_28">
+                 <item>
+                  <widget class="QLabel" name="label_27">
+                   <property name="font">
+                    <font>
+                     <family>Poppins</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Select Type</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="TypeQBox">
+                   <item>
+                    <property name="text">
+                     <string>Test</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Assignment</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_27">
+                 <item>
+                  <widget class="QLabel" name="label_26">
+                   <property name="font">
+                    <font>
+                     <family>Poppins</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Select Class</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="ClassQBox">
+                   <item>
+                    <property name="text">
+                     <string>9th</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>10th</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>1st Year</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>2nd Year</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_29">
+               <item>
+                <widget class="QLabel" name="label_28">
+                 <property name="font">
+                  <font>
+                   <family>Poppins</family>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Total Marks</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="totalMarksLineEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_30">
+               <item>
+                <widget class="QLabel" name="label_29">
+                 <property name="font">
+                  <font>
+                   <family>Poppins</family>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Test Date</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QDateEdit" name="testDateEdit">
+                 <property name="styleSheet">
+                  <string notr="true">background-color: rgb(39, 39, 39);
+	color : white;</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+           <widget class="Line" name="line_5">
+            <property name="geometry">
+             <rect>
+              <x>191</x>
+              <y>10</y>
+              <width>4</width>
+              <height>639</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+           </widget>
+           <widget class="Line" name="line_6">
+            <property name="geometry">
+             <rect>
+              <x>1086</x>
+              <y>12</y>
+              <width>4</width>
+              <height>638</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+           </widget>
+           <widget class="Line" name="line_7">
+            <property name="geometry">
+             <rect>
+              <x>191</x>
+              <y>8</y>
+              <width>899</width>
+              <height>4</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="Line" name="line_8">
+            <property name="geometry">
+             <rect>
+              <x>192</x>
+              <y>646</y>
+              <width>897</width>
+              <height>4</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_7">
+           <widget class="QLabel" name="label_5">
+            <property name="geometry">
+             <rect>
+              <x>546</x>
+              <y>36</y>
+              <width>189</width>
+              <height>39</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Poppins</family>
+              <pointsize>16</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>ASSIGN TASK</string>
+            </property>
+           </widget>
+           <widget class="Line" name="line">
+            <property name="geometry">
+             <rect>
+              <x>187</x>
+              <y>13</y>
+              <width>1</width>
+              <height>630</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+           </widget>
+           <widget class="Line" name="line_2">
+            <property name="geometry">
+             <rect>
+              <x>1060</x>
+              <y>13</y>
+              <width>1</width>
+              <height>630</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Vertical</enum>
+            </property>
+           </widget>
+           <widget class="Line" name="line_3">
+            <property name="geometry">
+             <rect>
+              <x>187</x>
+              <y>14</y>
+              <width>873</width>
+              <height>1</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="Line" name="line_4">
+            <property name="geometry">
+             <rect>
+              <x>187</x>
+              <y>642</y>
+              <width>873</width>
+              <height>1</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(0, 0, 0);</string>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+           </widget>
+           <widget class="QWidget" name="layoutWidget">
+            <property name="geometry">
+             <rect>
+              <x>318</x>
+              <y>88</y>
+              <width>621</width>
+              <height>443</height>
+             </rect>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_25">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_22">
+               <item>
+                <widget class="QLabel" name="label_18">
+                 <property name="font">
+                  <font>
+                   <family>Poppins</family>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"/>
+                 </property>
+                 <property name="text">
+                  <string>Topic</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="topicLineEdit">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_23">
+               <item>
+                <widget class="QLabel" name="label_23">
+                 <property name="font">
+                  <font>
+                   <family>Poppins</family>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true"/>
+                 </property>
+                 <property name="text">
+                  <string>Select Type</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="typeComboBox">
+                 <item>
+                  <property name="text">
+                   <string>Test</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Assignment</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_17">
+                 <item>
+                  <widget class="QLabel" name="label_7">
+                   <property name="font">
+                    <font>
+                     <family>Poppins</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Select Subject</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="subjectComboBox">
+                   <item>
+                    <property name="text">
+                     <string>Physics</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Chemistry</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Math</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>English</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Urdu</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Biology</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>Computer</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_19">
+                 <item>
+                  <widget class="QLabel" name="label_10">
+                   <property name="font">
+                    <font>
+                     <family>Poppins</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Select Class</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QComboBox" name="classComboBox">
+                   <item>
+                    <property name="text">
+                     <string>9th</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>10th</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>1st Year</string>
+                    </property>
+                   </item>
+                   <item>
+                    <property name="text">
+                     <string>2nd Year</string>
+                    </property>
+                   </item>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_20">
+                 <item>
+                  <widget class="QLabel" name="label_15">
+                   <property name="font">
+                    <font>
+                     <family>Poppins</family>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Due Date</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QDateEdit" name="dueDateEdit"/>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_24">
+               <item>
+                <widget class="QLabel" name="label_24">
+                 <property name="font">
+                  <font>
+                   <family>Poppins</family>
+                   <pointsize>12</pointsize>
+                  </font>
+                 </property>
+                 <property name="text">
+                  <string>Add PDF</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="Add_PDF">
+                 <property name="minimumSize">
+                  <size>
+                   <width>0</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="maximumSize">
+                  <size>
+                   <width>16777215</width>
+                   <height>35</height>
+                  </size>
+                 </property>
+                 <property name="styleSheet">
+                  <string notr="true">QPushButton{
+	background-color: rgb(39, 39, 39);
+	color : white;
+	border : none;
+	border-radius : 8px;
+	font-weight : bold;
+	font-size : 15px;
+}</string>
+                 </property>
+                 <property name="text">
+                  <string>Add PDF</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QPushButton" name="uploadButton">
+            <property name="geometry">
+             <rect>
+              <x>320</x>
+              <y>554</y>
+              <width>617</width>
+              <height>35</height>
+             </rect>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color : #34D481;
+	color : white;
+	border : none;
+	border-radius : 8px;
+	font-weight : bold;
+	font-size : 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Upload</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_8">
+           <widget class="QTableWidget" name="attendanceTable">
+            <property name="geometry">
+             <rect>
+              <x>120</x>
+              <y>8</y>
+              <width>1043</width>
+              <height>599</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QTableWidget {
+    background-color: #000000;
+    gridline-color: #34D481;
+    font-size: 14px;
+    font-family: &quot;Poppins&quot;;
+    color: white;
+}
+
+QHeaderView::section {
+    background-color: #34D481;
+    color: #000000;
+    padding: 4px;
+    border: 1px solid #34D481;
+    font-family: &quot;Poppins&quot;;
+    font-size: 14px;
+}
+
+QTableWidget::item:selected {
+    background-color:#1e1e1e;
+    color: white;
+    font-family: &quot;Poppins&quot;;
+}
+
+/* Checkbox styling */
+QCheckBox {
+    spacing: 10px;
+    font-family: &quot;Poppins&quot;;
+    color: white;
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #34D481;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #34D481;
+    border: 2px solid #34D481;
+	image: url(:/new/prefix1/RE/checkmark.svg);
+}
+
+QTableWidget QCheckBox {
+    margin-left: 10px;
+}
+</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="submitAttendanceButton">
+            <property name="geometry">
+             <rect>
+              <x>1048</x>
+              <y>616</y>
+              <width>113</width>
+              <height>41</height>
+             </rect>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	background-color : #34D481;
+	color : white;
+	border : none;
+	border-radius : 8px;
+	font-weight : bold;
+	font-size : 15px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Submit</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_10">
+           <widget class="QLabel" name="label_20">
+            <property name="geometry">
+             <rect>
+              <x>334</x>
+              <y>272</y>
+              <width>137</width>
+              <height>93</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Berlin Sans FB</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+background-color:none;</string>
+            </property>
+            <property name="text">
+             <string>Expenses</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_9">
+           <widget class="QLabel" name="label_19">
+            <property name="geometry">
+             <rect>
+              <x>302</x>
+              <y>238</y>
+              <width>115</width>
+              <height>93</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Berlin Sans FB</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+background-color:none;</string>
+            </property>
+            <property name="text">
+             <string>Budgets</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_11">
+           <widget class="QLabel" name="label_21">
+            <property name="geometry">
+             <rect>
+              <x>264</x>
+              <y>270</y>
+              <width>275</width>
+              <height>93</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Berlin Sans FB</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+background-color:none;</string>
+            </property>
+            <property name="text">
+             <string>Bussiness Overview</string>
+            </property>
+           </widget>
+          </widget>
+          <widget class="QWidget" name="page_12">
+           <widget class="QLabel" name="label_22">
+            <property name="geometry">
+             <rect>
+              <x>340</x>
+              <y>256</y>
+              <width>167</width>
+              <height>93</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>Berlin Sans FB</family>
+              <pointsize>20</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 0, 0);
+background-color:none;</string>
+            </property>
+            <property name="text">
+             <string>Settings</string>
+            </property>
+           </widget>
+          </widget>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Icons.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>teacher1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>teachers_dropdown</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>228</x>
+     <y>382</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>318</x>
+     <y>394</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>dashboard1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>dashboard2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>137</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>77</x>
+     <y>130</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>institution1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>institution2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>157</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>59</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>teacher1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>teacher2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>383</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>75</x>
+     <y>267</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>signout1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>signout2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>168</x>
+     <y>748</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>73</x>
+     <y>743</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>signout2</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>57</x>
+     <y>748</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>58</x>
+     <y>759</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>signout1</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>268</x>
+     <y>741</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>759</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_30</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>icon_text_widget</receiver>
+   <slot>setVisible(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>374</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>68</x>
+     <y>25</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_30</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>widget_2</receiver>
+   <slot>setHidden(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>358</x>
+     <y>47</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>290</x>
+     <y>26</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>2</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>2</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
